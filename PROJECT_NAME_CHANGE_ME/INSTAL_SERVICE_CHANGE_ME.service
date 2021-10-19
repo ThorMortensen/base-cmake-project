@@ -1,0 +1,15 @@
+[Unit]
+Description=<PROJECT NAME HERE> service <--------------- CHANGE THIS!
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root  <--------------- ROOT NEEDED??!!
+Group=root <--------------- ROOT NEEDED??!!
+ExecStart=/usr/local/bin/<PROJECT NAME HERE>.out  <--------------- CHANGE THIS!
+
+[Install]
+WantedBy=multi-user.target

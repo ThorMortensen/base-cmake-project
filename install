@@ -1,0 +1,4 @@
+
+Add install stuff here like OS dependencies etc. Can also be used ti automate cmake builds etc.
+sudo apt install libgrpc++-dev
+

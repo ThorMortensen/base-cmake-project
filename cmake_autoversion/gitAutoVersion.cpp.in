@@ -1,0 +1,4 @@
+#include "gitAutoVersion.h"
+
+const std::string gitVersion = "@VERSION@";
+const std::string gitVersionShort = "@VERSION_SHORT@";
